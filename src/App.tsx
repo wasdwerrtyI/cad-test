@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/testcad">
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/contact-us" element={<ContactUsPage />} />
